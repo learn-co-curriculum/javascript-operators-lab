@@ -1,0 +1,31 @@
+{
+  "name": "javascript-arithmetic-lab",
+  "version": "0.1.0",
+  "description": "JavaScript arithmetic lab for Learn.co",
+  "main": "math.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/javascript-arithmetic-lab.git"
+  },
+  "keywords": [
+    "learn",
+    "flatiron",
+    "javascript",
+    "arithmetic"
+  ],
+  "author": "@pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/javascript-arithmetic-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/javascript-arithmetic-lab#readme",
+  "devDependencies": {
+    "jsdom": "^8.5.0",
+    "mocha": "^2.4.5",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0"
+  }
+}

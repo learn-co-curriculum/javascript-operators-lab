@@ -1,0 +1,228 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 0,
+    "pending": 0,
+    "failures": 7,
+    "start": "2016-05-04T17:58:35.698Z",
+    "end": "2016-05-04T17:58:36.309Z",
+    "duration": 611
+  },
+  "tests": [
+    {
+      "title": "1 === 1",
+      "fullTitle": "operators 1 === 1",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:14:5)"
+      }
+    },
+    {
+      "title": "(5 / 2) !== [literally anything else]",
+      "fullTitle": "operators (5 / 2) !== [literally anything else]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:18:5)"
+      }
+    },
+    {
+      "title": "6 < [a number greater than 6]",
+      "fullTitle": "operators 6 < [a number greater than 6]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:22:5)"
+      }
+    },
+    {
+      "title": "7 > [a number less than 7]",
+      "fullTitle": "operators 7 > [a number less than 7]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:26:5)"
+      }
+    },
+    {
+      "title": "true || false OR false || true",
+      "fullTitle": "operators true || false OR false || true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:30:5)"
+      }
+    },
+    {
+      "title": "true && true OR true && false",
+      "fullTitle": "operators true && true OR true && false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:34:5)"
+      }
+    },
+    {
+      "title": "!false",
+      "fullTitle": "operators !false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:38:5)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "1 === 1",
+      "fullTitle": "operators 1 === 1",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:14:5)"
+      }
+    },
+    {
+      "title": "(5 / 2) !== [literally anything else]",
+      "fullTitle": "operators (5 / 2) !== [literally anything else]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:18:5)"
+      }
+    },
+    {
+      "title": "6 < [a number greater than 6]",
+      "fullTitle": "operators 6 < [a number greater than 6]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:22:5)"
+      }
+    },
+    {
+      "title": "7 > [a number less than 7]",
+      "fullTitle": "operators 7 > [a number less than 7]",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:26:5)"
+      }
+    },
+    {
+      "title": "true || false OR false || true",
+      "fullTitle": "operators true || false OR false || true",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:30:5)"
+      }
+    },
+    {
+      "title": "true && true OR true && false",
+      "fullTitle": "operators true && true OR true && false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:34:5)"
+      }
+    },
+    {
+      "title": "!false",
+      "fullTitle": "operators !false",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "actual": "false",
+        "expected": "true",
+        "operator": "==",
+        "message": "false == true",
+        "generatedMessage": true,
+        "stack": "AssertionError: false == true\n    at Context.it (test/operators-test.js:38:5)"
+      }
+    }
+  ],
+  "passes": []
+}
