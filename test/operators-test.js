@@ -30,7 +30,7 @@ describe('operators', () => {
     assert(or)
   })
 
-  it('true && true OR true && false', () => {
+  it('true && true', () => {
     assert(and)
   })
 
