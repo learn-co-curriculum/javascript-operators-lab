@@ -1,7 +1,7 @@
-var equal = 1 === 0
-var notEqual = (5 / 2) !== (5 / 2)
-var lessThan = 6 < 5
-var greaterThan = 7 > 10
-var or = false || false
-var and = false && false
-var not = !true
+var equal = 1 === 1
+var notEqual = (5 / 2) !== (5 / 1)
+var lessThan = 6 < 7
+var greaterThan = 7 > 6
+var or = false || true
+var and = true && true
+var not = !false
