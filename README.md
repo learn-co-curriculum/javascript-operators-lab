@@ -8,7 +8,7 @@ JavaScript Arithmetic Lab
 
 ## Instructions
 
-You know the drill: run the tests (`learn` — make sure dependencies are installed (`npm install`)), read the output, fix the code (in `operators.js` this time), repeat.
+You know the drill: run the tests (run `learn` in the console of your IDE), read the output, fix the code (in `operators.js` this time), repeat.
 
 HINT: Make the statements evaluate to `true`.
 
